@@ -40,3 +40,14 @@ int main(){
     }
     return 0;
 }
+
+
+// OUTPUT:- 
+
+
+//      > cd "c:\Users\User\OneDrive\Desktop\chetan\C++\" ; if ($?) { g++ selection_sort.cpp -o selection_sort } ; if ($?) { .\selection_sort }
+// enter the size 
+// 6
+// 13 46 24 52 20 9
+// 9 13 20 24 46 52 
+// PS C:\Users\User\OneDrive\Desktop\chetan\C++>
