@@ -4,7 +4,16 @@
 using namespace std;
 
 void bubble_sort(int n , int arr[]){
-    
+    for(int i = n-1; i >= 0; i--){              //reverse iteration upto n-1 i.e last element
+        for(int j = 0; j <= i-1; j++){        //one less than the i becuse we have to swap previous and current
+            if(arr[j] > arr[j+1]){
+                //swap 
+                int temp = arr[j+1];
+                arr[j+1] = arr[j];
+                arr[j] = temp;
+            }
+        }
+    }
 }
 
 int main(){
