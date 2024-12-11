@@ -34,3 +34,15 @@ int main(){
 
     return 0;
 }
+
+
+// OUTPUT:- 
+
+// enter size
+// 6
+// 13 46 24 52 20 9
+// sorted array is 
+// 9 13 20 24 46 52 
+
+// ...Program finished with exit code 0
+// Press ENTER to exit console.
