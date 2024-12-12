@@ -33,3 +33,42 @@ int main(){
     
     return 0;
 }
+
+
+// OUTPUT:-
+
+// PS C:\Users\User\Downloads> cd "c:\Users\User\Downloads\" ; if ($?) { g++ insertion_sort.cpp -o insertion_sort } ; if ($?) { .\insertion_sort }
+
+//     for avg/worst case time complexity is O(N*N)   
+    
+// enter n
+// 6
+// 14 9 15 12 6 8 13
+// running
+// running
+// running
+// running
+// running
+// running
+// running
+// running
+// running
+// running
+// running
+// array after sorting is
+// 6 8 9 12 14 15
+// PS C:\Users\User\Downloads>
+
+
+
+
+// for best case time complexity is O(N)   as only outer loop runs once for first iteration thro each element and inner loop does not run
+
+    
+//                           > cd "c:\Users\User\Downloads\" ; if ($?) { g++ insertion_sort.cpp -o insertion_sort } ; if ($?) { .\insertion_sort }
+// enter n 
+// 6
+// 1 3 5 6 7 8
+// array after sorting is 
+// 1 3 5 6 7 8
+// PS C:\Users\User\Downloads>
